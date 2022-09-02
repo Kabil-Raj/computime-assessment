@@ -1,0 +1,50 @@
+{
+	"structure": [
+		
+			{
+				"index": 1,
+				"code": "Nationality",
+				"label": "Nationality",
+				"type": "Text",
+				"state": "read-only"
+				
+			},
+			{
+				"index": 2,
+				"code": "AgeVerified",
+				"label": "Age Verified",
+				"type": "Boolean",			
+				"state": "read-write"
+			},
+			{
+				"index": 3,
+				"code": "SourceOfFunds",
+				"label": "Source Of Funds",
+				"type": "Text",
+				"state": "read-write"				
+			},
+			{
+				"index": 4,
+				"code": "IDExpiryDate",
+				"label": "ID Expiry",
+				"type": "Text",
+				"state": "hidden"				
+			},
+			{
+				"index": 5,
+				"code": "CustomerType",
+				"label": "Customer Type",
+				"type": "List",
+				"options": "Individual|Corporate|Bank",
+				"state": "read-write"				
+			},
+			{
+				"index": 6,
+				"code": "ExpectedIncome",
+				"label": "Expected Income",
+				"type": "Number",
+				"state": "read-write"				
+			}
+		
+	]
+}
